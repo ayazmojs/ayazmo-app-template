@@ -1,0 +1,21 @@
+{
+  "name": "ayazmo-app-template",
+  "version": "0.1.0",
+  "description": "Starter template for building Ayazmo applications",
+  "exports": "./dist/index.js",
+  "type": "module",
+  "repository": "git@github.com:ayazmojs/ayazmo-app-template.git",
+  "author": "ayazmojs",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  },
+  "scripts": {
+    "build": "rimraf dist && cross-env && tsc -p tsconfig.json",
+    "start": "cross-env && node index.js"
+  }
+}
