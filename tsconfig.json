@@ -24,7 +24,7 @@
     "skipLibCheck": true,
     "downlevelIteration": true,
     "noUnusedLocals": true,
-    "noImplicitOverride": true,
+    "noImplicitOverride": false,
     "noUnusedParameters": false,
     "rootDir": "./src",
   },
