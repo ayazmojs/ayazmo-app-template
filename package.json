@@ -7,16 +7,20 @@
   "repository": "git@github.com:ayazmojs/ayazmo-app-template.git",
   "author": "ayazmojs",
   "license": "MIT",
+  "private": true,
   "dependencies": {
-    "@mikro-orm/core": "^6.0.4",
     "cross-env": "^7.0.3",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "ayazmo/core": "^0.1.0"
   },
   "devDependencies": {
-    "rimraf": "^5.0.5"
+    "turbo": "^1.11.3"
   },
   "scripts": {
-    "build": "rimraf dist && cross-env && tsc -p tsconfig.json",
+    "build": "turbo run build --no-daemon",
     "start": "cross-env && node index.js"
-  }
+  },
+  "workspaces": [
+    "src/plugins/*"
+  ]
 }
