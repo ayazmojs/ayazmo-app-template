@@ -10,13 +10,10 @@
   "private": true,
   "dependencies": {
     "cross-env": "^7.0.3",
-    "dotenv": "^16.3.1",
-    "@ayazmo/core": "^0.1.0",
-    "@ayazmo/utils": "^0.1.0",
-    "@ayazmo/types": "^0.1.0"
-
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
+    "ayazmo": "^0.1.6",
     "turbo": "^1.11.3"
   },
   "scripts": {
