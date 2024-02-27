@@ -1,26 +1,24 @@
 {
   "name": "ayazmo-app-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Starter template for building Ayazmo applications",
   "exports": "./dist/index.js",
   "type": "module",
   "repository": "git@github.com:ayazmojs/ayazmo-app-template.git",
-  "author": "ayazmojs",
+  "author": "ayazmo.io",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "cross-env": "^7.0.3",
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
-    "ayazmo": "^0.1.6",
-    "turbo": "^1.11.3"
+    "ayazmo": "^0.1.13",
+    "turbo": "^1.12.4",
+    "nodemon": "^3.0.3"
   },
   "scripts": {
     "build": "turbo run build --no-daemon",
     "start": "cross-env && node index.js"
-  },
-  "workspaces": [
-    "src/plugins/*"
-  ]
+  }
 }
