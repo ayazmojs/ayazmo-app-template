@@ -14,6 +14,9 @@ if (fs.existsSync(envPath)) {
 }
 
 export default {
+  app: {
+    eventEmitterType: 'memory',
+  },
   database: {
     // Default database configurations (can be overridden with environment variables)
     type: "postgresql",
