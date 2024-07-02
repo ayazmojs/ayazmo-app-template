@@ -15,7 +15,15 @@ if (fs.existsSync(envPath)) {
 
 export default {
   app: {
+    server: {
+      port: process.env.PORT || 3000,
+      host: process.env.HOST || '0.0.0.0',
+    },
     eventEmitterType: 'memory',
+  },
+  admin: {
+    enabled: true,
+    enabledAuthProviders: [],
   },
   database: {
     // Default database configurations (can be overridden with environment variables)
