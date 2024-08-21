@@ -24,5 +24,8 @@
   },
   "workspaces": [
     "src/plugins/*"
-  ]
+  ],
+  "engines": {
+    "node": ">19"
+  }
 }
