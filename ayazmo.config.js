@@ -32,7 +32,8 @@ export default {
     user: process.env.DB_USERNAME || "ayazmo-user",
     password: process.env.DB_PASSWORD || "ayazmo-password",
     dbName: process.env.DB_DATABASE || "ayazmo-dev",
-    debug: false, // Set to true to enable debug mode
+    debug: environment !== "production",
+    schema: process.env.DB_DATABASE || "public",
   },
   plugins: []
 }
