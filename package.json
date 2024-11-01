@@ -10,23 +10,27 @@
   "private": true,
   "sideEffects": false,
   "dependencies": {
+    "ayazmo": "^0.3.0",
+    "@ayazmo/core": "^0.3.0",
+    "@ayazmo/types": "^0.3.0",
+    "@ayazmo/utils": "^0.3.0",
     "cross-env": "^7.0.3",
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
-    "ayazmo": "^0.2.7",
-    "turbo": "^1.13.3",
     "nodemon": "^3.0.3"
   },
   "scripts": {
-    "build": "turbo run build --no-daemon",
     "start": "cross-env && node index.js",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "workspaces": [
-    "src/plugins/*"
-  ],
   "engines": {
-    "node": ">19"
+    "node": ">20"
+  },
+  "resolutions": {
+    "ayazmo": "^0.3.0",
+    "@ayazmo/core": "^0.3.0",
+    "@ayazmo/types": "^0.3.0",
+    "@ayazmo/utils": "^0.3.0"
   }
 }
