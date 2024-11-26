@@ -10,10 +10,10 @@
   "private": true,
   "sideEffects": false,
   "dependencies": {
-    "ayazmo": "^0.3.0",
-    "@ayazmo/core": "^0.3.0",
-    "@ayazmo/types": "^0.3.0",
-    "@ayazmo/utils": "^0.3.0",
+    "ayazmo": "^0.4.0",
+    "@ayazmo/core": "^0.4.0",
+    "@ayazmo/types": "^0.4.0",
+    "@ayazmo/utils": "^0.4.0",
     "cross-env": "^7.0.3",
     "dotenv": "^16.3.1"
   },
@@ -28,9 +28,9 @@
     "node": ">=20.5.0"
   },
   "resolutions": {
-    "ayazmo": "^0.3.0",
-    "@ayazmo/core": "^0.3.0",
-    "@ayazmo/types": "^0.3.0",
-    "@ayazmo/utils": "^0.3.0"
+    "ayazmo": "^0.4.0",
+    "@ayazmo/core": "^0.4.0",
+    "@ayazmo/types": "^0.4.0",
+    "@ayazmo/utils": "^0.4.0"
   }
 }
