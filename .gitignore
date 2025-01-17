@@ -16,6 +16,7 @@ node_modules
 
 .idea
 .turbo
+.ayazmo
 dist
 **/dist
 **/stats
