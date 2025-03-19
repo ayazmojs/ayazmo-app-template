@@ -10,10 +10,10 @@
   "private": true,
   "sideEffects": false,
   "dependencies": {
-    "ayazmo": "^0.6.0",
-    "@ayazmo/core": "^0.6.0",
-    "@ayazmo/types": "^0.6.0",
-    "@ayazmo/utils": "^0.6.0",
+    "ayazmo": "^0.6.5",
+    "@ayazmo/core": "^0.6.5",
+    "@ayazmo/types": "^0.6.5",
+    "@ayazmo/utils": "^0.6.5",
     "cross-env": "^7.0.3",
     "dotenv": "^16.3.1"
   },
